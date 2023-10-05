@@ -3,5 +3,4 @@
 2. web development templates
 3. web design trends
 
-Follow Youtube : [@CodingHindiOfficial
-](https://www.youtube.com/@CodingHindiOfficial)https://www.youtube.com/@CodingHindiOfficial
+Follow Youtube : https://www.youtube.com/@CodingHindiOfficial
