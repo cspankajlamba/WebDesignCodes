@@ -1,0 +1,42 @@
+.container{
+    text-align:center;
+    margin-top:200px;
+  }
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #00398a;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF2310;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.copyright{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: all ease-in-out .4s;
+}
+  .copyright img{
+    width: 35px;
+  }
+  .copyright:hover{
+    transform: scale(1.2);
+  }
